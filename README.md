@@ -27,5 +27,5 @@ Benefits are as follows:
    1. <b>Http tag : </b> http tag says we are going to protect some other request coming into the web application.<br>
    2. <b>Intercept-url tag : </b> It consist of <b>pattern</b> which says that, for which tag you want to restrict the access & access consist of the ROLE_ to which the access is issued.
 5. <b>Authentication Control Row :</b> <br>
-    <b>Authentication-manager</b> is used to authenticate the access of the user to valid user acess.
+    <b>Authentication-manager</b> is used to authenticate the access of the user to valid user acess.<br>
     <b>User-service</b> provides the number of user with the name, password and authorities. Authorities can consist multiple paramaeters separated by <b>commas</b> example <b>authorites ="ROKE_ADMIN,ROLE_USER"</b>.
